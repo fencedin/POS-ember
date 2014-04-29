@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ember Starter Kit</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+
+
+
+   <script type="text/x-handlebars" data-template-name="index">
+    <ul>
+    {{#each tabel in model}}
+      <li>{{tabel.name}}</li>
+    {{/each}}
+    </ul>
+    <ul>
+    {{#each food in modelfoods}}
+      <li>{{food.name}}</li>
+    {{/each}}
+    </ul>
+  </script>
+
+  <script src="js/libs/jquery-1.10.2.js"></script>
+  <script src="js/libs/handlebars-1.1.2.js"></script>
+  <script src="js/libs/ember-1.5.1.js"></script>
+  <script src="js/libs/ember-data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/models/table.js"></script>
+  <script src="js/models/food.js"></script>
+  <!-- to activate the test runner, add the "?test" query string parameter -->
+  <script src="tests/runner.js"></script>
+</body>
+</html>
