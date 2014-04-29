@@ -1,20 +1,20 @@
 App.Food.FIXTURES = [
  {
-   id: 1,
+   id: '1',
    name: 'pancakes',
-   price: 3.00,
-   table_id: 1
+   price: '3.00',
+   table_id: '1'
  },
  {
-   id: 2,
+   id: '2',
    name: 'waffles',
-   price: 4.00,
-   table_id: 1
+   price: '4.00',
+   table_id: '1'
  },
  {
-   id: 3,
+   id: '3',
    name: 'eggs',
-   price: 1.50,
-   table_id: 2
+   price: '1.50',
+   table_id: '2'
  }
 ];
